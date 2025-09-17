@@ -2,7 +2,7 @@ function sortear() {
     let quantidade = parseInt(document.getElementById("quantidade").value); 
     let de = parseInt(document.getElementById("de").value);
     let ate = parseInt(document.getElementById("ate").value); 
-    if (de > ate) {
+    if (de >= ate) {
         alert ('O valor "De" não pode ser maior que o valor "Até".');
         return;
     }
